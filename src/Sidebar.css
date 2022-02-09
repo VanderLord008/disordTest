@@ -1,7 +1,7 @@
 .sidebar{
     display: flex;
     flex-direction: column;
-    flex: 0.25;
+    flex: 0.20;
     height: 100vh;
     background-color: #2f3135;
     
@@ -89,7 +89,7 @@
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    height: 60vh;
+    height: 50vh;
 
 }
 
