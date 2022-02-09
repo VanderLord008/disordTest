@@ -19,7 +19,6 @@ function SidebarChannel(props) {
     >
       <h4>
         <span className="sidebarChannel__hash">#</span>
-        {console.log(props)}
         {props.channelName}
       </h4>
     </div>

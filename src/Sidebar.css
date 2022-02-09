@@ -4,6 +4,7 @@
     flex: 0.25;
     height: 100vh;
     background-color: #2f3135;
+    
 }
 
 .sidebar__top{
@@ -82,4 +83,16 @@
 
 .sidebar__profileIcons>.MuiSvgIcon-root{
     padding: 10px;
+}
+.sidebar__channelsList{
+    flex:1;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 60vh;
+
+}
+
+.sidebar__channelsList::-webkit-scrollbar{
+    display: none;
 }
